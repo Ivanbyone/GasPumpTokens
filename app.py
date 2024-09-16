@@ -23,22 +23,12 @@ bot_logger = logging.getLogger(__name__)
 
 
 async def main():
-    # scheduler = AsyncIOScheduler(timezone='Europe/Moscow')
-    # scheduler.start()
     logging.basicConfig(
         level=logging.INFO,
         format='%(filename)s:%(lineno)d #%(levelname)-8s '
                '[%(asctime)s] - %(name)s - %(message)s')
 
     bot_logger.info('Bot has been started...')
-
-    # router.message.middleware(
-    #     Scheduler(scheduler=scheduler)
-    # )
-
-    # dp.update.middleware(
-    #     GasPumpRequests(req=GPRequests)
-    # )
 
     await dp.start_polling(bot)
 
