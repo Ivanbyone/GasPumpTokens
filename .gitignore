@@ -1,0 +1,9 @@
+# PyCharm options
+.DS_Store
+
+# Python virtual environment
+venv
+
+# Secret keys
+.env
+new_token.json
