@@ -1,5 +1,6 @@
 # Parsing GasPump tokens
-![Aiogram](https://docs.aiogram.dev/en/dev-3.x/_static/logo.png)
+<!-- ![Aiogram](https://docs.aiogram.dev/en/dev-3.x/_static/logo.png) -->
+<img src="https://docs.aiogram.dev/en/dev-3.x/_static/logo.png" width="50" height="50">
 
 ## Description
 This usefull script can help cryptousers to recognize new tokens and buy them earlier then others.
