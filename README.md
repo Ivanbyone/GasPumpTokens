@@ -3,7 +3,7 @@
 ## Local development
 To deploy locally you should use Docker.
 1. Copy git repo.
-
-.. code:: shell
-    $ git clone https://github.com/Ivanbyone/GasPumpTokens
+```
+$ git clone https://github.com/Ivanbyone/GasPumpTokens
+```
 
