@@ -1,4 +1,5 @@
 # Parsing GasPump tokens
+![Aiogram](https://docs.aiogram.dev/en/dev-3.x/_static/logo.png)
 
 ## Description
 This usefull script can help cryptousers to recognize new tokens and buy them earlier then others.
@@ -10,10 +11,11 @@ To deploy locally you should use Docker.
 ```
 $ git clone https://github.com/Ivanbyone/GasPumpTokens
 ```
-2. Create .env file like as .env.example file, .
-3. Create bot in [BotFather](https://web.telegram.org/a/#93372553) and replace chanel link in /find handler.
-4. Add token to .env file.
-5. Run some Docker commands.
+2. Create virtual environment and activate it.
+3. Create .env file like as .env.example file, .
+4. Create bot in [BotFather](https://web.telegram.org/a/#93372553) and replace chanel link in /find handler.
+5. Add token to .env file.
+6. Run some Docker commands.
 ```
 $ docker build .
 ```
