@@ -1,7 +1,6 @@
 # Parsing GasPump tokens
-<img src="https://www.python.org/static/img/python-logo.png" width="50" height="50">
-<img src="https://docs.aiogram.dev/en/dev-3.x/_static/logo.png" width="50" height="50">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Docker_logo.png/220px-Docker_logo.png" width="50" height="50">
+
+<img src="https://docs.aiogram.dev/en/dev-3.x/_static/logo.png" width="80" height="80">
 
 ## Description
 This usefull script can help cryptousers to recognize new tokens and buy them earlier then others.
