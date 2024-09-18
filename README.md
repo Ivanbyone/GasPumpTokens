@@ -24,7 +24,7 @@ And...
 ```
 $ docker run <image name>
 ```
-Congrats, you deploy the project locally!
+Congrats, you deploy the project locally, good luck in local development
 
 ## License
 Please use my code according to [LICENSE](LICENSE)

@@ -39,9 +39,13 @@ class GPRequests:
 
     @staticmethod
     async def make_regular_requests(interval: int):
-        async with aiohttp.ClientSession(trust_env=True) as s:
-            while True:
-                regular = await GPRequests.fetch_gas_pump(s)
-                if regular is not None:
-                    return regular
-                await asyncio.sleep(interval)
+        timeout_aio = aiohttp.ClientTimeout(total=10000)
+        try:
+            async with aiohttp.ClientSession(trust_env=True, timeout=timeout_aio) as s:
+                while True:
+                    regular = await GPRequests.fetch_gas_pump(s)
+                    if regular is not None:
+                        return regular
+                    await asyncio.sleep(interval)
+        except TimeoutError:
+            GPRequests.make_regular_requests(interval)
